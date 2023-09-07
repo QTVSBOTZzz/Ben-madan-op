@@ -96,14 +96,14 @@ async def gen_link_batch(bot, message):
         try:
             file_type = msg.media
             file = getattr(msg, file_type.value)
-            caption = getattr(msg, 'caption', '')
+            caption = getattr(msg, 'caption', 'file_name')
             if caption:
                 caption = caption.html
             if file:
                 file = {
                     "file_id": file.file_id,
                     "caption": caption,
-                    "title": getattr(file, "file_name", ""),
+                    "title": getattr(file, "file_name", "file_caption"),
                     "size": file.file_size,
                     "protect": cmd.lower().strip() == "/pbatch",
                 }

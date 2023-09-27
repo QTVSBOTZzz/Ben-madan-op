@@ -61,10 +61,10 @@ async def save_group(bot, message):
                                                  caption=(script.MELCOW_ENG.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
-                                                                           InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/SAM_DUB_LEEZZA'),
-                                                                           InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url='https://t.me/SAM_DUB_LEZHa')
+                                                                           InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/+tPcOATDcE_cxMzZl'),
+                                                                           InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url='https://t.me/Qtmve_linkzZz')
                                                                         ],[
-                                                                           InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/SMD_Owner")
+                                                                           InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="https://t.me/Owner_of_qtmve")
                                                                          ]]
                                                  ),
                                                  parse_mode=enums.ParseMode.HTML
@@ -89,8 +89,8 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('Support Group', url="https://t.me/+j1Z12sl21vw1Mjdl"),
-            InlineKeyboardButton('Owner', url="https://t.me/SMD_Owner")
+            InlineKeyboardButton('Support Group', url="https://t.me/+tPcOATDcE_cxMzZl"),
+            InlineKeyboardButton('Owner', url="https://t.me/Owner_of_qtmve")
         ],[
             InlineKeyboardButton('Use Me Here', url=f'https://t.me/{SUPPORT_CHAT}')
         ]]
